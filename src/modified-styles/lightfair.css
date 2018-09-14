@@ -1,0 +1,87 @@
+/*
+
+Lightfair style (c) Tristian Kelly <tristian.kelly560@gmail.com>
+
+*/
+
+.lightfair .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.lightfair .hljs-name {
+    color:#01a3a3;
+}
+
+.lightfair .hljs-tag,.lightfair .hljs-meta {
+    color:#778899;
+}
+
+.lightfair .hljs,
+.lightfair .hljs-subst {
+    color: #444
+}
+
+.lightfair .hljs-comment {
+    color: #888888
+}
+
+.lightfair .hljs-keyword,
+.lightfair .hljs-attribute,
+.lightfair .hljs-selector-tag,
+.lightfair .hljs-meta-keyword,
+.lightfair .hljs-doctag,
+.lightfair .hljs-name {
+    font-weight: bold
+}
+
+.lightfair .hljs-type,
+.lightfair .hljs-string,
+.lightfair .hljs-number,
+.lightfair .hljs-selector-id,
+.lightfair .hljs-selector-class,
+.lightfair .hljs-quote,
+.lightfair .hljs-template-tag,
+.lightfair .hljs-deletion {
+    color: #4286f4
+}
+
+.lightfair .hljs-title,
+.lightfair .hljs-section {
+    color: #4286f4;
+    font-weight: bold
+}
+
+.lightfair .hljs-regexp,
+.lightfair .hljs-symbol,
+.lightfair .hljs-variable,
+.lightfair .hljs-template-variable,
+.lightfair .hljs-link,
+.lightfair .hljs-selector-attr,
+.lightfair .hljs-selector-pseudo {
+    color: #BC6060
+}
+
+.lightfair .hljs-literal {
+    color: #62bcbc
+}
+
+.lightfair .hljs-built_in,
+.lightfair .hljs-bullet,
+.lightfair .hljs-code,
+.lightfair .hljs-addition {
+    color: #25c6c6
+}
+
+.lightfair .hljs-meta-string {
+    color: #4d99bf
+}
+
+.lightfair .hljs-emphasis {
+    font-style: italic
+}
+
+.lightfair .hljs-strong {
+    font-weight: bold
+}

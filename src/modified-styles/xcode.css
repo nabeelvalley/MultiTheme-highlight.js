@@ -1,0 +1,104 @@
+/*
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
+*/
+
+.xcode .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  color: black;
+}
+
+/* Gray DOCTYPE selectors like WebKit */
+.xml .xcode .hljs-meta {
+  color: #c0c0c0;
+}
+
+.xcode .hljs-comment,
+.xcode .hljs-quote {
+  color: #007400;
+}
+
+.xcode .hljs-tag,
+.xcode .hljs-attribute,
+.xcode .hljs-keyword,
+.xcode .hljs-selector-tag,
+.xcode .hljs-literal,
+.xcode .hljs-name {
+  color: #aa0d91;
+}
+
+.xcode .hljs-variable,
+.xcode .hljs-template-variable {
+  color: #3F6E74;
+}
+
+.xcode .hljs-code,
+.xcode .hljs-string,
+.xcode .hljs-meta-string {
+  color: #c41a16;
+}
+
+.xcode .hljs-regexp,
+.xcode .hljs-link {
+  color: #0E0EFF;
+}
+
+.xcode .hljs-title,
+.xcode .hljs-symbol,
+.xcode .hljs-bullet,
+.xcode .hljs-number {
+  color: #1c00cf;
+}
+
+.xcode .hljs-section,
+.xcode .hljs-meta {
+  color: #643820;
+}
+
+
+.xcode .hljs-class .xcode .hljs-title,
+.xcode .hljs-type,
+.xcode .hljs-built_in,
+.xcode .hljs-builtin-name,
+.xcode .hljs-params {
+  color: #5c2699;
+}
+
+.xcode .hljs-attr {
+  color: #836C28;
+}
+
+.xcode .hljs-subst {
+  color: #000;
+}
+
+.xcode .hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.xcode .hljs-addition {
+  background-color: #baeeba;
+}
+
+.xcode .hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.xcode .hljs-selector-id,
+.xcode .hljs-selector-class {
+  color: #9b703f;
+}
+
+.xcode .hljs-doctag,
+.xcode .hljs-strong {
+  font-weight: bold;
+}
+
+.xcode .hljs-emphasis {
+  font-style: italic;
+}

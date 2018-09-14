@@ -1,0 +1,78 @@
+/*
+
+GML Theme - Meseta <meseta@gmail.com>
+
+*/
+
+.gml .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222222;
+  color: #C0C0C0;
+}
+
+.gml .hljs-keywords {
+  color: #FFB871;
+  font-weight: bold;
+}
+
+.gml .hljs-built_in {
+  color: #FFB871;
+}
+
+.gml .hljs-literal {
+  color: #FF8080;
+}
+
+.gml .hljs-symbol {
+  color: #58E55A;
+}
+
+.gml .hljs-comment {
+  color: #5B995B;
+}
+
+.gml .hljs-string {
+  color: #FFFF00;
+}
+
+.gml .hljs-number {
+  color: #FF8080;
+}
+
+.gml .hljs-attribute,
+.gml .hljs-selector-tag,
+.gml .hljs-doctag,
+.gml .hljs-name,
+.gml .hljs-bullet,
+.gml .hljs-code,
+.gml .hljs-addition,
+.gml .hljs-regexp,
+.gml .hljs-variable,
+.gml .hljs-template-variable,
+.gml .hljs-link,
+.gml .hljs-selector-attr,
+.gml .hljs-selector-pseudo,
+.gml .hljs-type,
+.gml .hljs-selector-id,
+.gml .hljs-selector-class,
+.gml .hljs-quote,
+.gml .hljs-template-tag,
+.gml .hljs-deletion,
+.gml .hljs-title,
+.gml .hljs-section,
+.gml .hljs-function,
+.gml .hljs-meta-keyword,
+.gml .hljs-meta,
+.gml .hljs-subst {
+  color: #C0C0C0;
+}
+
+.gml .hljs-emphasis {
+  font-style: italic;
+}
+
+.gml .hljs-strong {
+  font-weight: bold;
+}

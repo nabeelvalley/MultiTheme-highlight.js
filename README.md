@@ -1,3 +1,13 @@
+# Modified-Styles
+
+The modified style files will work the same as the standard styles, but they need to be in a container with a class name that matches the desired theme.
+
+```html 
+<div class="theme-name">
+  <code>...</code>
+</div>
+```
+
 # Highlight.js
 
 [![Build Status](https://travis-ci.org/highlightjs/highlight.js.svg?branch=master)](https://travis-ci.org/highlightjs/highlight.js)

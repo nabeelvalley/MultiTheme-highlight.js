@@ -1,0 +1,108 @@
+/*
+
+ highlight.js style for Microtik RouterOS script
+
+*/
+
+.routeros .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+/* Base color: saturation 0; */
+
+.routeros .hljs,
+.routeros .hljs-subst {
+  color: #444;
+}
+
+.routeros .hljs-comment {
+  color: #888888;
+}
+
+.routeros .hljs-keyword,
+.routeros .hljs-selector-tag,
+.routeros .hljs-meta-keyword,
+.routeros .hljs-doctag,
+.routeros .hljs-name {
+  font-weight: bold;
+}
+
+.routeros .hljs-attribute {
+  color: #0E9A00;
+}    
+
+.routeros .hljs-function {
+  color: #99069A;
+}
+
+.routeros .hljs-builtin-name {
+  color: #99069A;
+}
+
+/* User color: hue: 0 */
+
+.routeros .hljs-type,
+.routeros .hljs-string,
+.routeros .hljs-number,
+.routeros .hljs-selector-id,
+.routeros .hljs-selector-class,
+.routeros .hljs-quote,
+.routeros .hljs-template-tag,
+.routeros .hljs-deletion {
+  color: #880000;
+}
+
+.routeros .hljs-title,
+.routeros .hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.routeros .hljs-regexp,
+.routeros .hljs-symbol,
+.routeros .hljs-variable,
+.routeros .hljs-template-variable,
+.routeros .hljs-link,
+.routeros .hljs-selector-attr,
+.routeros .hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.routeros .hljs-literal {
+  color: #78A960;
+}
+
+.routeros .hljs-built_in,
+.routeros .hljs-bullet,
+.routeros .hljs-code,
+.routeros .hljs-addition {
+  color: #0C9A9A;
+}
+
+
+/* Meta color: hue: 200 */
+
+.routeros .hljs-meta {
+  color: #1f7199;
+}
+
+.routeros .hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.routeros .hljs-emphasis {
+  font-style: italic;
+}
+
+.routeros .hljs-strong {
+  font-weight: bold;
+}

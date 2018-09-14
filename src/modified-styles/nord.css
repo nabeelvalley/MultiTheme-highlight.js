@@ -1,0 +1,309 @@
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ */
+
+.nord .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2E3440;
+}
+
+.nord .hljs,
+.nord .hljs-subst {
+  color: #D8DEE9;
+}
+
+.nord .hljs-selector-tag {
+  color: #81A1C1;
+}
+
+.nord .hljs-selector-id {
+  color: #8FBCBB;
+  font-weight: bold;
+}
+
+.nord .hljs-selector-class {
+  color: #8FBCBB;
+}
+
+.nord .hljs-selector-attr {
+  color: #8FBCBB;
+}
+
+.nord .hljs-selector-pseudo {
+  color: #88C0D0;
+}
+
+.nord .hljs-addition {
+  background-color: rgba(163, 190, 140, 0.5);
+}
+
+.nord .hljs-deletion {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.nord .hljs-built_in,
+.nord .hljs-type {
+  color: #8FBCBB;
+}
+
+.nord .hljs-class {
+  color: #8FBCBB;
+}
+
+.nord .hljs-function {
+  color: #88C0D0;
+}
+
+.nord .hljs-function > .nord .hljs-title {
+  color: #88C0D0;
+}
+
+.nord .hljs-keyword,
+.nord .hljs-literal,
+.nord .hljs-symbol {
+  color: #81A1C1;
+}
+
+.nord .hljs-number {
+  color: #B48EAD;
+}
+
+.nord .hljs-regexp {
+  color: #EBCB8B;
+}
+
+.nord .hljs-string {
+  color: #A3BE8C;
+}
+
+.nord .hljs-title {
+  color: #8FBCBB;
+}
+
+.nord .hljs-params {
+  color: #D8DEE9;
+}
+
+.nord .hljs-bullet {
+  color: #81A1C1;
+}
+
+.nord .hljs-code {
+  color: #8FBCBB;
+}
+
+.nord .hljs-emphasis {
+  font-style: italic;
+}
+
+.nord .hljs-formula {
+  color: #8FBCBB;
+}
+
+.nord .hljs-strong {
+  font-weight: bold;
+}
+
+.nord .hljs-link:hover {
+  text-decoration: underline;
+}
+
+.nord .hljs-quote {
+  color: #4C566A;
+}
+
+.nord .hljs-comment {
+  color: #4C566A;
+}
+
+.nord .hljs-doctag {
+  color: #8FBCBB;
+}
+
+.nord .hljs-meta,
+.nord .hljs-meta-keyword {
+  color: #5E81AC;
+}
+
+.nord .hljs-meta-string {
+  color: #A3BE8C;
+}
+
+.nord .hljs-attr {
+  color: #8FBCBB;
+}
+
+.nord .hljs-attribute {
+  color: #D8DEE9;
+}
+
+.nord .hljs-builtin-name {
+  color: #81A1C1;
+}
+
+.nord .hljs-name {
+  color: #81A1C1;
+}
+
+.nord .hljs-section {
+  color: #88C0D0;
+}
+
+.nord .hljs-tag {
+  color: #81A1C1;
+}
+
+.nord .hljs-variable {
+  color: #D8DEE9;
+}
+
+.nord .hljs-template-variable {
+  color: #D8DEE9;
+}
+
+.nord .hljs-template-tag {
+  color: #5E81AC;
+}
+
+.abnf .nord .hljs-attribute {
+  color: #88C0D0;
+}
+
+.abnf .nord .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.apache .nord .hljs-attribute {
+  color: #88C0D0;
+}
+
+.apache .nord .hljs-section {
+  color: #81A1C1;
+}
+
+.arduino .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.aspectj .nord .hljs-meta {
+  color: #D08770;
+}
+
+.aspectj > .nord .hljs-title {
+  color: #88C0D0;
+}
+
+.bnf .nord .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.clojure .nord .hljs-name {
+  color: #88C0D0;
+}
+
+.clojure .nord .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.coq .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.cpp .nord .hljs-meta-string {
+  color: #8FBCBB;
+}
+
+.css .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.css .nord .hljs-keyword {
+  color: #D08770;
+}
+
+.diff .nord .hljs-meta {
+  color: #8FBCBB;
+}
+
+.ebnf .nord .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.glsl .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.groovy .nord .hljs-meta:not(:first-child) {
+  color: #D08770;
+}
+
+.haxe .nord .hljs-meta {
+  color: #D08770;
+}
+
+.java .nord .hljs-meta {
+  color: #D08770;
+}
+
+.ldif .nord .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.lisp .nord .hljs-name {
+  color: #88C0D0;
+}
+
+.lua .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.moonscript .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.nginx .nord .hljs-attribute {
+  color: #88C0D0;
+}
+
+.nginx .nord .hljs-section {
+  color: #5E81AC;
+}
+
+.pf .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.processing .nord .hljs-built_in {
+  color: #88C0D0;
+}
+
+.scss .nord .hljs-keyword {
+  color: #81A1C1;
+}
+
+.stylus .nord .hljs-keyword {
+  color: #81A1C1;
+}
+
+.swift .nord .hljs-meta {
+  color: #D08770;
+}
+
+.vim .nord .hljs-built_in {
+  color: #88C0D0;
+  font-style: italic;
+}
+
+.yaml .nord .hljs-meta {
+  color: #D08770;
+}
